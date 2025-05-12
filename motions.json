@@ -1,0 +1,992 @@
+[
+    {
+        "motion": "h",
+        "effect": "Move cursor left by one character",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "j",
+        "effect": "Move cursor down by one line",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "k",
+        "effect": "Move cursor up by one line",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "l",
+        "effect": "Move cursor right by one character",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "w",
+        "effect": "Move cursor to the start of the next word",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "b",
+        "effect": "Move cursor to the start of the previous word",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "e",
+        "effect": "Move cursor to the end of the current word",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "ge",
+        "effect": "Move cursor to the end of the previous word",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "0",
+        "effect": "Move cursor to the beginning of the line",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "^",
+        "effect": "Move cursor to the first non-blank character of the line",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "$",
+        "effect": "Move cursor to the end of the line",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "H",
+        "effect": "Move cursor to the top of the screen",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "M",
+        "effect": "Move cursor to the middle of the screen",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "L",
+        "effect": "Move cursor to the bottom of the screen",
+        "level": "beginner",
+        "type": "movement"
+    },
+    {
+        "motion": "gg",
+        "effect": "Move cursor to the beginning of the file",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "G",
+        "effect": "Move cursor to the end of the file",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "<NUMBER>G",
+        "effect": "Move cursor to line <NUMBER>",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "<NUMBER>j",
+        "effect": "Move cursor down <NUMBER> lines",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "<NUMBER>k",
+        "effect": "Move cursor up <NUMBER> lines",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "<NUMBER>w",
+        "effect": "Move cursor to the start of the <NUMBER>th word",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "<NUMBER>b",
+        "effect": "Move cursor to the start of the <NUMBER>th previous word",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "f<CHAR>",
+        "effect": "Move cursor to the next occurrence of <CHAR> in the line",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "F<CHAR>",
+        "effect": "Move cursor to the previous occurrence of <CHAR> in the line",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "t<CHAR>",
+        "effect": "Move cursor to just before the next occurrence of <CHAR> in the line",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "T<CHAR>",
+        "effect": "Move cursor to just before the previous occurrence of <CHAR> in the line",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "%",
+        "effect": "Jump to matching bracket",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "(",
+        "effect": "Move to the beginning of the sentence",
+        "level": "advanced",
+        "type": "movement"
+    },
+    {
+        "motion": ")",
+        "effect": "Move to the beginning of the next sentence",
+        "level": "advanced",
+        "type": "movement"
+    },
+    {
+        "motion": "{",
+        "effect": "Move to the previous paragraph",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "}",
+        "effect": "Move to the next paragraph",
+        "level": "intermediate",
+        "type": "movement"
+    },
+    {
+        "motion": "g0",
+        "effect": "Move to the first character of the screen line",
+        "level": "advanced",
+        "type": "movement"
+    },
+    {
+        "motion": "g^",
+        "effect": "Move to the first non-blank of the screen line",
+        "level": "advanced",
+        "type": "movement"
+    },
+    {
+        "motion": ";",
+        "effect": "Repeat the last f, t, F or T motion",
+        "level": "advanced",
+        "type": "movement"
+    },
+    {
+        "motion": ",",
+        "effect": "Repeat the last f, t, F or T motion in the opposite direction",
+        "level": "advanced",
+        "type": "movement"
+    },
+    {
+        "motion": "<C-o>",
+        "effect": "Jump to the previous location in the jump list",
+        "level": "advanced",
+        "type": "movement"
+    },
+    {
+        "motion": "<C-i>",
+        "effect": "Jump to the next location in the jump list",
+        "level": "advanced",
+        "type": "movement"
+    },
+    {
+        "motion": ";",
+        "effect": "Repeat the last f, t, F or T motion",
+        "level": "advanced",
+        "type": "movement"
+    },
+    {
+        "motion": ",",
+        "effect": "Repeat the last f, t, F or T motion in reverse",
+        "level": "advanced",
+        "type": "movement"
+    },
+    {
+        "motion": "g",
+        "effect": "Special g command (use with various variants)",
+        "level": "advanced",
+        "type": "operator",
+        "mode": "normal"
+    },
+    {
+        "motion": "gg",
+        "effect": "Go to the beginning of the file",
+        "level": "intermediate",
+        "type": "movement",
+        "mode": "normal"
+    },
+    {
+        "motion": "gq",
+        "effect": "Format text (operator) – use with motions or text objects",
+        "level": "advanced",
+        "type": "format",
+        "mode": "normal"
+    },
+    {
+        "motion": "g~",
+        "effect": "Toggle case for the text covered by motion <MOTION>",
+        "level": "advanced",
+        "type": "operator",
+        "mode": "normal"
+    },
+    {
+        "motion": "g0",
+        "effect": "Go to the beginning of the screen line",
+        "level": "advanced",
+        "type": "movement",
+        "mode": "normal"
+    },
+    {
+        "motion": "g^",
+        "effect": "Go to the first non-blank character of the screen line",
+        "level": "advanced",
+        "type": "movement",
+        "mode": "normal"
+    },
+    {
+        "motion": "/<PATTERN>",
+        "effect": "Search forward for <PATTERN>",
+        "level": "intermediate",
+        "type": "search"
+    },
+    {
+        "motion": "?<PATTERN>",
+        "effect": "Search backward for <PATTERN>",
+        "level": "intermediate",
+        "type": "search"
+    },
+    {
+        "motion": "n",
+        "effect": "Repeat the last search in the same direction",
+        "level": "intermediate",
+        "type": "search"
+    },
+    {
+        "motion": "N",
+        "effect": "Repeat the last search in the opposite direction",
+        "level": "intermediate",
+        "type": "search"
+    },
+    {
+        "motion": "*",
+        "effect": "Search forward for the word under the cursor",
+        "level": "intermediate",
+        "type": "search"
+    },
+    {
+        "motion": "#",
+        "effect": "Search backward for the word under the cursor",
+        "level": "intermediate",
+        "type": "search"
+    },
+    {
+        "motion": "<C-d>",
+        "effect": "Scroll down half a page",
+        "level": "intermediate",
+        "type": "scroll"
+    },
+    {
+        "motion": "<C-u>",
+        "effect": "Scroll up half a page",
+        "level": "intermediate",
+        "type": "scroll"
+    },
+    {
+        "motion": "<C-f>",
+        "effect": "Scroll down one full page",
+        "level": "intermediate",
+        "type": "scroll"
+    },
+    {
+        "motion": "<C-b>",
+        "effect": "Scroll up one full page",
+        "level": "intermediate",
+        "type": "scroll"
+    },
+    {
+        "motion": "<C-e>",
+        "effect": "Scroll the window down by one line without moving the cursor",
+        "level": "intermediate",
+        "type": "scroll"
+    },
+    {
+        "motion": "<C-y>",
+        "effect": "Scroll the window up by one line without moving the cursor",
+        "level": "intermediate",
+        "type": "scroll"
+    },
+    {
+        "motion": "zz",
+        "effect": "Center the current line in the middle of the screen",
+        "level": "beginner",
+        "type": "scroll"
+    },
+    {
+        "motion": "zt",
+        "effect": "Scroll current line to the top of the screen",
+        "level": "advanced",
+        "type": "scroll"
+    },
+    {
+        "motion": "zb",
+        "effect": "Scroll current line to the bottom of the screen",
+        "level": "advanced",
+        "type": "scroll"
+    },
+    {
+        "motion": "z^",
+        "effect": "Scroll current line to the first non-blank of the screen",
+        "level": "advanced",
+        "type": "scroll"
+    },
+    {
+        "motion": "za",
+        "effect": "Toggle fold under cursor",
+        "level": "advanced",
+        "type": "fold"
+    },
+    {
+        "motion": "zc",
+        "effect": "Close fold under cursor",
+        "level": "advanced",
+        "type": "fold"
+    },
+    {
+        "motion": "zo",
+        "effect": "Open fold under cursor",
+        "level": "advanced",
+        "type": "fold"
+    },
+    {
+        "motion": "zM",
+        "effect": "Close all folds",
+        "level": "advanced",
+        "type": "fold"
+    },
+    {
+        "motion": "zR",
+        "effect": "Open all folds",
+        "level": "advanced",
+        "type": "fold"
+    },
+    {
+        "motion": "zf<MOTION>",
+        "effect": "Create a manual fold using motion <MOTION>",
+        "level": "advanced",
+        "type": "fold"
+    },
+    {
+        "motion": "zd",
+        "effect": "Delete the fold under the cursor",
+        "level": "advanced",
+        "type": "fold"
+    },
+    {
+        "motion": "zE",
+        "effect": "Delete all folds",
+        "level": "advanced",
+        "type": "fold"
+    },
+    {
+        "motion": "<C-w>",
+        "effect": "Close the current window",
+        "level": "advanced",
+        "type": "window"
+    },
+    {
+        "motion": ":split",
+        "effect": "Split the window horizontally",
+        "level": "advanced",
+        "type": "window"
+    },
+    {
+        "motion": ":vsplit",
+        "effect": "Split the window vertically",
+        "level": "advanced",
+        "type": "window"
+    },
+    {
+        "motion": "<C-q>",
+        "effect": "Quit all open windows",
+        "level": "advanced",
+        "type": "window"
+    },
+    {
+        "motion": "i",
+        "effect": "Enter insert mode before the cursor",
+        "level": "beginner",
+        "type": "insert"
+    },
+    {
+        "motion": "I",
+        "effect": "Move to the beginning of the line and enter insert mode",
+        "level": "beginner",
+        "type": "insert"
+    },
+    {
+        "motion": "a",
+        "effect": "Enter insert mode after the cursor",
+        "level": "beginner",
+        "type": "insert"
+    },
+    {
+        "motion": "A",
+        "effect": "Move to the end of the line and enter insert mode",
+        "level": "beginner",
+        "type": "insert"
+    },
+    {
+        "motion": "o",
+        "effect": "Open a new line below the cursor and enter insert mode",
+        "level": "beginner",
+        "type": "insert"
+    },
+    {
+        "motion": "O",
+        "effect": "Open a new line above the cursor and enter insert mode",
+        "level": "beginner",
+        "type": "insert"
+    },
+    {
+        "motion": "v",
+        "effect": "Enter Visual mode (character-wise selection)",
+        "level": "beginner",
+        "type": "visual"
+    },
+    {
+        "motion": "V",
+        "effect": "Enter Visual Line mode (whole-line selection)",
+        "level": "beginner",
+        "type": "visual"
+    },
+    {
+        "motion": "<C-v>",
+        "effect": "Enter Visual Block mode (rectangular block selection)",
+        "level": "intermediate",
+        "type": "visual"
+    },
+    {
+        "motion": "o",
+        "effect": "Move cursor to the other end of the visual selection",
+        "level": "intermediate",
+        "type": "visual"
+    },
+    {
+        "motion": "O",
+        "effect": "Switch active corner in Visual Block mode",
+        "level": "advanced",
+        "type": "visual"
+    },
+    {
+        "motion": "gv",
+        "effect": "Re-select the last visual area (restores previous selection)",
+        "level": "advanced",
+        "type": "visual"
+    },
+    {
+        "motion": "<",
+        "effect": "Shift selected text one 'shiftwidth' left",
+        "level": "intermediate",
+        "type": "visual"
+    },
+    {
+        "motion": ">",
+        "effect": "Shift selected text one 'shiftwidth' right",
+        "level": "intermediate",
+        "type": "visual"
+    },
+    {
+        "motion": "iw",
+        "effect": "Select inner word",
+        "level": "beginner",
+        "type": "text-object"
+    },
+    {
+        "motion": "aw",
+        "effect": "Select around word",
+        "level": "beginner",
+        "type": "text-object"
+    },
+    {
+        "motion": "i\"",
+        "effect": "Select inside double quotes",
+        "level": "intermediate",
+        "type": "text-object"
+    },
+    {
+        "motion": "a\"",
+        "effect": "Select around double quotes",
+        "level": "intermediate",
+        "type": "text-object"
+    },
+    {
+        "motion": "i'",
+        "effect": "Select inside single quotes",
+        "level": "intermediate",
+        "type": "text-object"
+    },
+    {
+        "motion": "a'",
+        "effect": "Select around single quotes",
+        "level": "intermediate",
+        "type": "text-object"
+    },
+    {
+        "motion": "i(",
+        "effect": "Select inside parentheses",
+        "level": "intermediate",
+        "type": "text-object"
+    },
+    {
+        "motion": "a(",
+        "effect": "Select around parentheses",
+        "level": "intermediate",
+        "type": "text-object"
+    },
+    {
+        "motion": "i{",
+        "effect": "Select inside curly braces",
+        "level": "intermediate",
+        "type": "text-object"
+    },
+    {
+        "motion": "a{",
+        "effect": "Select around curly braces",
+        "level": "intermediate",
+        "type": "text-object"
+    },
+    {
+        "motion": "i[",
+        "effect": "Select inside square brackets",
+        "level": "intermediate",
+        "type": "text-object"
+    },
+    {
+        "motion": "a[",
+        "effect": "Select around square brackets",
+        "level": "intermediate",
+        "type": "text-object"
+    },
+    {
+        "motion": "i<",
+        "effect": "Select inside angle brackets",
+        "level": "advanced",
+        "type": "text-object"
+    },
+    {
+        "motion": "a<",
+        "effect": "Select around angle brackets",
+        "level": "advanced",
+        "type": "text-object"
+    },
+    {
+        "motion": "is",
+        "effect": "Select inner sentence",
+        "level": "advanced",
+        "type": "text-object"
+    },
+    {
+        "motion": "as",
+        "effect": "Select around sentence",
+        "level": "advanced",
+        "type": "text-object"
+    },
+    {
+        "motion": "ip",
+        "effect": "Select inner paragraph",
+        "level": "advanced",
+        "type": "text-object"
+    },
+    {
+        "motion": "ap",
+        "effect": "Select around paragraph",
+        "level": "advanced",
+        "type": "text-object"
+    },
+    {
+        "motion": "diw",
+        "effect": "Delete inner word",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "daw",
+        "effect": "Delete around word",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "ciw",
+        "effect": "Change inner word",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "caw",
+        "effect": "Change around word",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "yiw",
+        "effect": "Yank inner word",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "yaw",
+        "effect": "Yank around word",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "dip",
+        "effect": "Delete inner paragraph",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "dap",
+        "effect": "Delete around paragraph",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "cip",
+        "effect": "Change inner paragraph",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "cap",
+        "effect": "Change around paragraph",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "yip",
+        "effect": "Yank inner paragraph",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "yap",
+        "effect": "Yank around paragraph",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "dis",
+        "effect": "Delete inner sentence",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "das",
+        "effect": "Delete around sentence",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "cis",
+        "effect": "Change inner sentence",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "cas",
+        "effect": "Change around sentence",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "yis",
+        "effect": "Yank inner sentence",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "yas",
+        "effect": "Yank around sentence",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "dd",
+        "effect": "Delete the current line",
+        "level": "beginner",
+        "type": "operator"
+    },
+    {
+        "motion": "yy",
+        "effect": "Yank the current line",
+        "level": "beginner",
+        "type": "operator"
+    },
+    {
+        "motion": "d",
+        "effect": "Delete operator; requires a motion or text-object (e.g. dw, diw)",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "y",
+        "effect": "Yank operator; requires a motion or text-object (e.g. yw, yiw)",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "c",
+        "effect": "Change operator; requires a motion or text-object (e.g. cw, ciw)",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "r",
+        "effect": "Replace operator; replaces the character under the cursor with <CHAR>",
+        "level": "beginner",
+        "type": "operator"
+    },
+    {
+        "motion": "D",
+        "effect": "Delete to the end of the line (alias for d$)",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "Y",
+        "effect": "Yank to the end of the line (alias for y$)",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "C",
+        "effect": "Change to the end of the line (alias for c$)",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "~",
+        "effect": "Toggle case of the character under the cursor",
+        "level": "intermediate",
+        "type": "operator"
+    },
+    {
+        "motion": "g~<MOTION>",
+        "effect": "Toggle case for the text covered by motion <MOTION>",
+        "level": "advanced",
+        "type": "operator"
+    },
+    {
+        "motion": "r<CHAR>",
+        "effect": "Replace the character under the cursor with <CHAR>",
+        "level": "beginner",
+        "type": "edit"
+    },
+    {
+        "motion": "R",
+        "effect": "Enter replace mode to replace multiple characters",
+        "level": "intermediate",
+        "type": "edit"
+    },
+    {
+        "motion": "s",
+        "effect": "Substitute the character under the cursor with new text",
+        "level": "beginner",
+        "type": "edit"
+    },
+    {
+        "motion": "S",
+        "effect": "Substitute the entire line with new text",
+        "level": "intermediate",
+        "type": "edit"
+    },
+    {
+        "motion": "x",
+        "effect": "Delete the character under the cursor",
+        "level": "beginner",
+        "type": "edit"
+    },
+    {
+        "motion": "X",
+        "effect": "Delete the character before the cursor",
+        "level": "beginner",
+        "type": "edit"
+    },
+    {
+        "motion": "D",
+        "effect": "Delete to the end of the line",
+        "level": "intermediate",
+        "type": "edit"
+    },
+    {
+        "motion": "C",
+        "effect": "Change to the end of the line (delete and enter insert)",
+        "level": "intermediate",
+        "type": "edit"
+    },
+    {
+        "motion": "u",
+        "effect": "Undo the last change",
+        "level": "beginner",
+        "type": "edit"
+    },
+    {
+        "motion": "<C-r>",
+        "effect": "Redo the last undone change",
+        "level": "beginner",
+        "type": "edit"
+    },
+    {
+        "motion": "p",
+        "effect": "Paste after the cursor position",
+        "level": "beginner",
+        "type": "edit"
+    },
+    {
+        "motion": "P",
+        "effect": "Paste before the cursor position",
+        "level": "beginner",
+        "type": "edit"
+    },
+    {
+        "motion": "q<anycase-letter>",
+        "effect": "Start recording a macro into register <anycase-letter>",
+        "level": "advanced",
+        "type": "macro"
+    },
+    {
+        "motion": "@<anycase-letter>",
+        "effect": "Play back the macro in register <anycase-letter>",
+        "level": "advanced",
+        "type": "macro"
+    },
+    {
+        "motion": "@@",
+        "effect": "Repeat the last-used macro",
+        "level": "advanced",
+        "type": "macro"
+    },
+    {
+        "motion": "m<lowercase-letter>",
+        "effect": "Set a local mark in this file using register <lowercase-letter>",
+        "level": "advanced",
+        "type": "mark"
+    },
+    {
+        "motion": "m<uppercase-letter>",
+        "effect": "Set a global mark (file+position) using register <uppercase-letter>",
+        "level": "advanced",
+        "type": "mark"
+    },
+    {
+        "motion": "'<lowercase-letter>",
+        "effect": "Jump to the local mark <lowercase-letter> in this file",
+        "level": "advanced",
+        "type": "mark"
+    },
+    {
+        "motion": "'<uppercase-letter>",
+        "effect": "Jump to the global mark <uppercase-letter> (possibly in another file)",
+        "level": "advanced",
+        "type": "mark"
+    },
+    {
+        "motion": "`<lowercase-letter>",
+        "effect": "Jump to the exact local mark <lowercase-letter> in this file",
+        "level": "advanced",
+        "type": "mark"
+    },
+    {
+        "motion": "`<uppercase-letter>",
+        "effect": "Jump to the exact global mark <uppercase-letter> (possibly in another file)",
+        "level": "advanced",
+        "type": "mark"
+    },
+    {
+        "motion": ".",
+        "effect": "Repeat the last change",
+        "level": "advanced",
+        "type": "repeat"
+    },
+    {
+        "motion": "&",
+        "effect": "Repeat the last substitute command",
+        "level": "advanced",
+        "type": "repeat"
+    },
+    {
+        "motion": ">>",
+        "effect": "Shift current line one 'shiftwidth' right",
+        "level": "advanced",
+        "type": "format"
+    },
+    {
+        "motion": "<<",
+        "effect": "Shift current line one 'shiftwidth' left",
+        "level": "advanced",
+        "type": "format"
+    },
+    {
+        "motion": "=",
+        "effect": "Indent (operator) – use with motions or text objects",
+        "level": "advanced",
+        "type": "format"
+    },
+    {
+        "motion": "==",
+        "effect": "Indent current line",
+        "level": "advanced",
+        "type": "format"
+    },
+    {
+        "motion": "=G",
+        "effect": "Indent from current line to end of file",
+        "level": "advanced",
+        "type": "format"
+    },
+    {
+        "motion": "gq",
+        "effect": "Format text (operator) – use with motions or text objects",
+        "level": "advanced",
+        "type": "format"
+    },
+    {
+        "motion": "gqap",
+        "effect": "Format a paragraph",
+        "level": "advanced",
+        "type": "format"
+    },
+    {
+        "motion": "gw",
+        "effect": "Format text (operator) without joining lines",
+        "level": "advanced",
+        "type": "format"
+    }
+]
